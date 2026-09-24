@@ -226,6 +226,18 @@
     html { scroll-behavior: auto; }
     .project-card, .icon-link { transition: none; }
   }
+  .avatar {
+  width: 134px;
+  height: 123px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 </style>
 </head>
 <body>
@@ -233,7 +245,10 @@
 <div class="wrap">
 
   <header class="hero">
-    <div class="avatar">DR</div>
+    <!-- <div class="avatar">DR</div><img src="profile.jpg"> -->
+     <div class="avatar">
+  <img src="profile.jpg" alt="Profile">
+</div>
     <div>
       <p class="prompt-line">$ whoami<span class="caret"></span></p>
       <h1 class="name">Dhanyashree R</h1>
